@@ -1,7 +1,3 @@
-before_install:
-  - brew update
-  - brew upgrade xctool
-
 language: objective-c
 osx_image: xcode7.2
 xcode_workspace: Furni.xcworkspace
