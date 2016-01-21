@@ -1,5 +1,3 @@
 language: objective-c
-xcode_workspace: Furni.xcworkspace #3
-xcode_scheme: Furni #4
-osx_image: xcode7
-xcode_sdk: iphonesimulator
+script:
+- xctool -workspace Furni.xcworkspace -scheme Furni -sdk iphonesimulator test
