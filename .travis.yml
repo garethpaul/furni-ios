@@ -1,4 +1,6 @@
-  language: objective-c
+language: objective-c
+xcode_workspace: Furni.xcworkspace #3
+xcode_scheme: Furni #4
 osx_image: xcode7
 script:
     - "xctool -workspace Furni.xcworkspace -scheme Furni -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.0' build test"
