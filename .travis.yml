@@ -1,5 +1,5 @@
-language: objective-c  #1
-osx_image: xcode7.2 #2
-xcode_project: Furni.xcworkspace #3
-xcode_scheme: Furni #4
-xcode_sdk: iphonesimulator9.0 #5
+language: objective-c
+osx_image: xcode7
+xcode_workspace: Furni.xcworkspace
+xcode_scheme: Furni
+xcode_sdk: iphonesimulator9.0
