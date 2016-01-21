@@ -1,3 +1,4 @@
 language: objective-c
+
 script:
 - xcodebuild test -workspace Furni.xcworkspace -scheme "Furni" -sdk iphonesimulator9.2 -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.2'
