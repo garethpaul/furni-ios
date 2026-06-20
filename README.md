@@ -29,6 +29,12 @@ This project is written in Swift 2.0 so Furni requires Xcode 7 to build and run.
 
 Furni for iOS is compatible with iOS 9+.
 
+The GitHub Actions workflow performs read-only project checks and an unsigned
+simulator build probe. Current Xcode releases cannot compile Swift 2, so CI
+accepts only that documented compatibility failure and fails on other errors.
+It does not install credentials, sign an app, deploy, or contact service
+providers.
+
 ## Authors
 
 * [Romain Huet](https://twitter.com/romainhuet)
